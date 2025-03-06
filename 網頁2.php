@@ -8,7 +8,7 @@
 <body>
 	<a href="about.html"target="線條小狗">個人簡介</a>
 	<a href="about.php"target="線條小狗">個人簡介PHP版本</a>
-	<a href="https://www.104.com.tw/">人力銀行</a><br><hr>
+	<a href="https://www.104.com.tw/target=_blank">人力銀行</a><br><hr>
 
 	<iframe 
 	name="線條小狗"
@@ -16,5 +16,7 @@
 	src="https://www.youtube.com/embed/pW88QFpHXa8"allowfullscream>
 		
 	</iframe>
+	<?php echo date("Y-m-d") ?>
+
 </body>
 </html>
