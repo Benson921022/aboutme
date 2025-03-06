@@ -9,11 +9,38 @@
 		h1{color:pink;font-size: 60px;}
 		h2{color:#33ff33;font-size: 40px;}
 	</style>
+
+	<script>
+		function change1() {
+  			document.getElementById("pic").src = "小花線條小狗.jpg";
+  			document.getElementById("h2text").innerText = "靜宜資管";
+		}
+
+		function change2() {
+  			document.getElementById("pic").src = "下載.jpg";
+  			document.getElementById("h2text").innerText = "BO-ZHANG, HUANG";
+		}
+	</script>
+
+
 </head>
 <body>
-	<img src="下載.jpg"></img>
-	<h1>黃柏彰<h1>
-	<h2>BO-ZHANG, HUANG<h2>
+
+	<table width="70%">
+		<tr>
+			<td>
+				<img src="下載.jpg" width="70%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+			</td>
+
+			<td>
+				<h1>黃柏彰</h1>
+				<h2 id="h2text">BO-ZHANG, HUANG</h2>
+			</td>
+		</tr>
+	</table>
+
+
+
 	<table width="70%"border="1">
         <tr>
         	<td>
